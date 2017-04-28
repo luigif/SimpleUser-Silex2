@@ -2,8 +2,6 @@
 
 #Simple User Provider for Silex
 
-Build Status Total Downloads Latest Stable Version Latest Unstable Version
-
 A simple, extensible, database-backed user provider for the Silex security service.
 
 SimpleUser is an easy way to set up user accounts (authentication, authorization, and user administration) in the Silex PHP micro-framework. It provides drop-in services for Silex that implement the missing user management pieces for the Security component. It includes a basic User model, a database-backed user manager, controllers and views for user administration, and various supporting features.
