@@ -739,7 +739,7 @@ class UserManager implements UserProviderInterface
     public function loginAsUser(User $user)
     {
         if (null !== ($current_token = $this->app['security.token_storage']->getToken())) {
-            $providerKey = method_exists($current_token, 'getProviderKey') ? $current_token->getProviderKey() : $current_token->getKey();
+            $providerKey = method_exists($current_token, 'getProviderKey') ? $current_token->getProviderKey() : $current_token->getSecret();
             $token = new UsernamePasswordToken($user, null, $providerKey);
             $this->app['security.token_storage']->setToken($token);
 
