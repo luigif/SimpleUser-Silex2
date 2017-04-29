@@ -1,9 +1,9 @@
 {
-  "name": "luigif/silex2-simpleuser",
+  "name": "luigif/silex2-usermanager",
   "type": "library",
   "description": "A simple database-backed user provider for Silex 2.0, with associated services and controllers forked from jasongrimes/SimpleUser.",
-  "keywords": ["silex", "user", "user provider", "simple user provider"],
-  "homepage": "https://github.com/luigif/silex2-simpleuser",
+  "keywords": ["silex", "user", "user provider", "user manager provider"],
+  "homepage": "https://github.com/luigif/silex2-usermanager",
   "license": "BSD-2-Clause",
   "authors": [
     {
@@ -19,7 +19,7 @@
     {
       "name": "Luigif",
       "email":"",
-      "role": "Developer - Mods to work with Silex 2.0"
+      "role": "Developer - Improvements and mods to work with Silex 2.0"
     }
   ],
   "require": {

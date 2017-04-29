@@ -1,10 +1,10 @@
 **This is a version of Jason Grimes Simple User which has been modified to work with Silex 2.0. 
 
-#Simple User Provider for Silex
+#User Manager Provider for Silex2
 
 A simple, extensible, database-backed user provider for the Silex security service.
 
-SimpleUser is an easy way to set up user accounts (authentication, authorization, and user administration) in the Silex PHP micro-framework. It provides drop-in services for Silex that implement the missing user management pieces for the Security component. It includes a basic User model, a database-backed user manager, controllers and views for user administration, and various supporting features.
+UserManager is an easy way to set up user accounts (authentication, authorization, and user administration) in the Silex PHP micro-framework. It provides drop-in services for Silex that implement the missing user management pieces for the Security component. It includes a basic User model, a database-backed user manager, controllers and views for user administration, and various supporting features.
 
 ##Quick start example config
 
@@ -13,7 +13,7 @@ This configuration should work out of the box to get you up and running quickly.
 Install with composer. This command will automatically install the latest stable version:
 
 ```
-composer require luigif/silex2-simpleuser
+composer require luigif/silex2-usermanager
 ```
 
 Set up your Silex application something like this:
